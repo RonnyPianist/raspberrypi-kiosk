@@ -18,8 +18,6 @@ Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Mentimet
 
 - `install-kiosk.sh` - Vollständige Installation aller Komponenten
 - `auto-kiosk.sh` - Haupt-Kiosk-Script mit HTML-Generierung
-- `start.sh` - Vereinfachter Start (leitet zu auto-kiosk.sh weiter)
-- `stop.sh` - Kiosk beenden (leitet zu kiosk-stop.sh weiter)
 - `kiosk-stop.sh` - Detailliertes Stop-Script
 - `auto-kiosk.desktop` - Autostart-Desktop-Datei
 
