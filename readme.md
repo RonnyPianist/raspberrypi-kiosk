@@ -28,6 +28,8 @@ Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Mentimet
    # Option 1: USB-Stick oder SFTP
    # Option 2: Git Clone (falls Repository verfügbar)
    # Option 3: Direkt auf Pi erstellen
+
+   # Im Benutzer Ordner Speichern (File-Manager der Start-Ordner)
    ```
 
 2. **Installation ausführen (Im Terminal/Shell):**
