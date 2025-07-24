@@ -11,5 +11,5 @@ Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Mentimet
 1. **Dateien auf den Raspberry Pi übertragen:**
    ```bash
    # Packe die kiosk.desktop in /User/.config/autostart/
-   # Und trage in dieser Datei den Link rein
+   # Und trage in dieser Datei den Link rein  ("URL")
    ```
