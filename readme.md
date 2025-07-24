@@ -2,19 +2,19 @@
 
 Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Mentimeter-Webseite im Kiosk-Modus anzeigt.
 
-## 🚀 Features
+## Features
 
-- ✅ Automatischer Start beim Boot
-- ✅ Mentimeter-Webseite im Vollbildmodus
-- ✅ Vollbildmodus ohne Browser-Interface
-- ✅ Bildschirmschoner permanent deaktiviert
-- ✅ Mauszeiger automatisch versteckt
-- ✅ Notfall-Exit-Kombination (Ctrl+Shift+Alt+X)
-- ✅ Umfassendes Logging
-- ✅ Internetverbindungsprüfung
-- ✅ Einfache Installation
+-  Automatischer Start beim Boot
+-  Mentimeter-Webseite im Vollbildmodus
+-  Vollbildmodus ohne Browser-Interface
+-  Bildschirmschoner permanent deaktiviert
+-  Mauszeiger automatisch versteckt
+-  Notfall-Exit-Kombination (Ctrl+Shift+Alt+X)
+-  Umfassendes Logging
+-  Internetverbindungsprüfung
+-  Einfache Installation
 
-## 📦 Enthaltene Dateien
+## Enthaltene Dateien
 
 - `install-kiosk.sh` - Vollständige Installation aller Komponenten
 - `auto-kiosk.sh` - Haupt-Kiosk-Script mit HTML-Generierung
@@ -23,7 +23,7 @@ Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Mentimet
 - `kiosk-stop.sh` - Detailliertes Stop-Script
 - `auto-kiosk.desktop` - Autostart-Desktop-Datei
 
-## 🔧 Installation auf dem Raspberry Pi
+## Installation auf dem Raspberry Pi
 
 1. **Dateien auf den Raspberry Pi übertragen:**
    ```bash
@@ -43,7 +43,7 @@ Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Mentimet
    sudo reboot
    ```
 
-## 🎯 Verwendung
+## Verwendung
 
 ### Automatischer Start
 - Nach dem Reboot startet der Kiosk-Modus automatisch
@@ -65,7 +65,7 @@ nano /home/pi/kiosk/auto-kiosk.sh
 # Ändern Sie die Zeile: KIOSK_URL="https://www.menti.com/alkyrfv9ia3x"
 ```
 
-## 🌐 Mentimeter Integration
+## Mentimeter Integration
 
 Das System ist konfiguriert für die spezifische Mentimeter-Webseite:
 - **URL:** https://www.menti.com/alkyrfv9ia3x
@@ -73,7 +73,7 @@ Das System ist konfiguriert für die spezifische Mentimeter-Webseite:
 - **Internetverbindungsprüfung:** Warnt bei fehlender Verbindung
 - **Browser-Optimierung:** Spezielle Chromium-Flags für Web-Apps
 
-## ⚙️ Konfiguration
+## Konfiguration
 
 ### Eigene URL verwenden
 In `auto-kiosk.sh` ändern:
@@ -96,7 +96,7 @@ sudo systemctl enable kiosk.service
 sudo systemctl start kiosk.service
 ```
 
-## 📝 Logs und Debugging
+## Logs und Debugging
 
 - **Haupt-Log:** `/home/pi/kiosk/kiosk.log`
 - **Weitere Logs:** `/home/pi/kiosk/logs/`
@@ -106,7 +106,7 @@ sudo systemctl start kiosk.service
 tail -f /home/pi/kiosk/kiosk.log
 ```
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Kiosk startet nicht
 1. Log-Datei prüfen: `cat /home/pi/kiosk/kiosk.log`
@@ -128,14 +128,14 @@ tail -f /home/pi/kiosk/kiosk.log
 1. Desktop-Datei prüfen: `cat ~/.config/autostart/kiosk.desktop`
 2. Autostart testen: `dex ~/.config/autostart/kiosk.desktop`
 
-## 🔒 Sicherheit
+## Sicherheit
 
 - Browser läuft im Incognito-Modus
 - Keine Passwort-Speicherung
 - Web-Security deaktiviert für lokale Dateien
 - Sandbox deaktiviert für bessere Performance
 
-## 🎨 Anpassungen
+## Anpassungen
 
 ### Design der Webseite ändern
 Die CSS-Styles in `/home/pi/kiosk/web/index.html` können beliebig angepasst werden.
@@ -146,29 +146,19 @@ Die CSS-Styles in `/home/pi/kiosk/web/index.html` können beliebig angepasst wer
 - Kamera-Stream anzeigen
 - Interaktive Elemente
 
-## 📋 Systemanforderungen
+## Systemanforderungen
 
 - Raspberry Pi 3 oder neuer
 - Raspberry Pi OS (Bullseye oder neuer)
 - Desktop-Umgebung (LXDE/PIXEL)
 - Internetverbindung für Installation
 
-## 🚨 Notfall-Maßnahmen
+## Notfall-Maßnahmen
 
 Falls das System nicht mehr reagiert:
 1. **SSH-Zugang:** `ssh pi@raspberry-ip`
 2. **Kiosk beenden:** `pkill -f chromium-browser`
 3. **Autostart deaktivieren:** `rm ~/.config/autostart/kiosk.desktop`
 4. **Neustart:** `sudo reboot`
-
-## 📄 Lizenz
-
-Dieses Projekt steht unter MIT-Lizenz und kann frei verwendet und angepasst werden.
-
-## 🤝 Beitragen
-
-Verbesserungen und Erweiterungen sind willkommen! Erstellen Sie einfach einen Pull Request.
-
----
 
 **Viel Erfolg mit Ihrem Raspberry Pi Kiosk-System! 🎉**
