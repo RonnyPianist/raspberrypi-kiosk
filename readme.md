@@ -47,7 +47,7 @@ Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Mentimet
 
 ### Automatischer Start
 - Nach dem Reboot startet der Kiosk-Modus automatisch
-- Zeigt die Mentimeter-Webseite: https://www.menti.com/alkyrfv9ia3x
+- Zeigt die Mentimeter-Webseite: URL
 
 ### Manueller Start
 ```bash
@@ -62,13 +62,13 @@ cd /home/pi/kiosk
 ### URL ändern
 ```bash
 nano /home/pi/kiosk/auto-kiosk.sh
-# Ändern Sie die Zeile: KIOSK_URL="https://www.menti.com/alkyrfv9ia3x"
+# Ändern Sie die Zeile: KIOSK_URL="URL"
 ```
 
 ## Mentimeter Integration
 
 Das System ist konfiguriert für die spezifische Mentimeter-Webseite:
-- **URL:** https://www.menti.com/alkyrfv9ia3x
+- **URL:** URL
 - **Vollbildmodus:** Optimiert für Präsentationen
 - **Internetverbindungsprüfung:** Warnt bei fehlender Verbindung
 - **Browser-Optimierung:** Spezielle Chromium-Flags für Web-Apps
@@ -79,7 +79,7 @@ Das System ist konfiguriert für die spezifische Mentimeter-Webseite:
 In `auto-kiosk.sh` ändern:
 ```bash
 # Aktuelle Zeile:
-KIOSK_URL="https://www.menti.com/alkyrfv9ia3x"
+KIOSK_URL="URL"
 
 # Ändern zu:
 KIOSK_URL="https://ihre-webseite.de"
@@ -116,7 +116,7 @@ tail -f /home/pi/kiosk/kiosk.log
 
 ### Mentimeter lädt nicht
 1. Internetverbindung prüfen: `ping www.menti.com`
-2. URL im Browser testen: https://www.menti.com/alkyrfv9ia3x
+2. URL im Browser testen: URL
 3. DNS-Einstellungen prüfen: `cat /etc/resolv.conf`
 
 ### Schwarzer Bildschirm
