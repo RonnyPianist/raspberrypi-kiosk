@@ -1,6 +1,6 @@
 # Raspberry Pi Kiosk System
 
-Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Mentimeter-Webseite im Kiosk-Modus anzeigt.
+Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Webseite im Kiosk-Modus anzeigt.
 
 ## Enthaltene Dateien
 
