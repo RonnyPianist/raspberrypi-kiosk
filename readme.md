@@ -30,7 +30,7 @@ Ein komplettes Autostart-System für Raspberry Pi, das automatisch eine Mentimet
    # Option 3: Direkt auf Pi erstellen
    ```
 
-2. **Installation ausführen:**
+2. **Installation ausführen (Im Terminal/Shell):**
    ```bash
    chmod +x install-kiosk.sh
    ./install-kiosk.sh
