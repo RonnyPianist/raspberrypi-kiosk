@@ -8,7 +8,7 @@
 # Konfiguration
 KIOSK_DIR="/home/pi/kiosk"
 LOG_FILE="$KIOSK_DIR/kiosk.log"
-KIOSK_URL="URL"
+KIOSK_URL="https://www.menti.com/alkyrfv9ia3x"
 
 # Logging-Funktion
 log() {
