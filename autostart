@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Kiosk Mode
+Comment=Startet den Raspberry Pi im Kiosk-Modus
+Exec=/home/pi/kiosk/start.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
+Terminal=false
+Categories=System;
+Icon=applications-internet
