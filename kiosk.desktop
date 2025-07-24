@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Kiosk
-Exec=chromium-browser --noerrdialogs --diable-infobars --disable-pinch --overscroll-history-navigation=0 --kiosk https://talkto.network/list/starterkitchen-community-53556-60796/#08912b3b-b9e3-4bed-a663-6084065dc6fa
+Exec=chromium-browser --noerrdialogs --diable-infobars --disable-pinch --overscroll-history-navigation=0 --kiosk "URL"
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
