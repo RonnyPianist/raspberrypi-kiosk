@@ -256,7 +256,7 @@ kiosk/
 
 ### Webseite wird nicht angezeigt
 1. Prüfen Sie Internetverbindung
-2. Testen Sie die URL im Browser: https://www.menti.com/alkyrfv9ia3x
+2. Testen Sie die URL im Browser: URL
 3. Prüfen Sie die Chromium-Logs in kiosk.log
 
 ### Autostart funktioniert nicht
@@ -268,7 +268,7 @@ kiosk/
 ### Andere URL verwenden
 Ändern Sie in `auto-kiosk.sh` die Zeile:
 ```bash
-KIOSK_URL="https://www.menti.com/alkyrfv9ia3x"
+KIOSK_URL="URL"
 ```
 zu:
 ```bash
